@@ -1,0 +1,90 @@
+body{
+background-image: url('B.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+padding: 30px;
+margin: 30px;
+<!--background-color: powderblue;-->
+}
+h1 {
+  color: mediumseagreen;
+  font-family: verdana;
+  font-size: 300%;
+  background-color: white;
+}
+h2 {
+  color: red;
+  p.groove {border-style: groove;}
+  font-family: verdana;
+  font-size: 300%;
+  background-color: lightgrey;
+}
+p {
+  color: blue;
+  font-family: courier;
+  font-size: 160%;
+  background-color: pink;
+}
+img {
+width:400;
+height:379;
+}
+
+
+
+
+table{
+border: 5px double black;
+border-collapse: collapse;
+font-size: 30px;
+}
+th,td{
+border:1px solid black;
+}
+th{
+background-color:hsl;
+}
+th, td {
+  border:1px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+/*tr:nth-child(odd){
+ background-color: Highlight;
+}*/
+h3 {
+  color:mediumseagreen ;
+  p.groove {border-style: groove;}
+  font-family: verdana;
+  font-size: 300%;
+  background-color: purple;
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
