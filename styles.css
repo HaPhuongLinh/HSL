@@ -1,11 +1,7 @@
 body{
-background-image: url('B.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-padding: 30px;
-margin: 30px;
-<!--background-color: powderblue;-->
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 h1 {
   color: mediumseagreen;
@@ -33,7 +29,7 @@ height:379;
 
 
 
-
+/*
 table{
 border: 5px double black;
 border-collapse: collapse;
@@ -52,15 +48,23 @@ th, td {
   padding-left: 13px;
   padding-right: 13px;
 }
-/*tr:nth-child(odd){
+tr:nth-child(odd){
  background-color: Highlight;
 }*/
-h3 {
+h3 { 
   color:mediumseagreen ;
   p.groove {border-style: groove;}
   font-family: verdana;
   font-size: 300%;
   background-color: purple;
+  text align: center;
+}
+h4{
+   color: mediumseagreen;
+  font-family: verdana;
+  font-size: 300%;
+  background-color: pink;
+  text align: center;
 }
 
 
@@ -84,7 +88,7 @@ a:hover {
 
 a:active {
   color: yellow;
-  background-color: transparent;
+  background-color: transparent; 
   text-decoration: underline;
 }
 </style>
